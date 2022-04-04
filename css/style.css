@@ -584,6 +584,16 @@
   }
 }
 
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+  .trending_post {
+    height: 19.28vw;
+    width: 24.8%;
+  }
+
+  .post_info {
+    padding: 15px;
+  }
+}
 /* ====================== Content ====================== */
 
 .content {
