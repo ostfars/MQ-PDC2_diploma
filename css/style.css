@@ -1346,7 +1346,7 @@
 }
 
 
-@media (min-width: 1200px) and (max-width: 1220px) {
+/* @media (min-width: 1200px) and (max-width: 1220px) {
   body::after {
     content: "";
     display: block;
@@ -1389,4 +1389,4 @@
     opacity: 0.6;
     z-index: 999;
   }
-}
+} */
