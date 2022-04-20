@@ -347,6 +347,7 @@
   .header {
     background-image: url("../img/banner-mobile.jpg");
     justify-content: space-between;
+    border: 1px solid black;
   }
 
   .main_menu {
@@ -389,6 +390,10 @@
 }
 
 /* ====================== Trending ====================== */
+
+.trending {
+  border: 1px solid blue;
+}
 
 .section_header {
   display: block;
@@ -625,6 +630,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid red;
 }
 
 .post {
@@ -1067,6 +1073,7 @@
   padding-left: 23px;
   padding-right: 23px;
   margin-bottom: 23px;
+  border: 1px solid green;
 }
 
 .shop > .section_header {
@@ -1245,6 +1252,7 @@
 .footer {
   padding-right: 15px;
   padding-left: 15px;
+  border: 1px solid yellow;
 }
 
 .footer-wrapper {
