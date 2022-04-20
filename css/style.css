@@ -19,11 +19,6 @@
   font-family: 'Open Sans', Arial, sans-serif;
 }
 
-body {
-  overflow: auto;
-  overflow-x: hidden;
-}
-
 /* ====================== Pop-up ====================== */
 
 .hidden {
@@ -352,7 +347,6 @@ body {
   .header {
     background-image: url("../img/banner-mobile.jpg");
     justify-content: space-between;
-    border: 1px solid black;
   }
 
   .main_menu {
@@ -395,10 +389,6 @@ body {
 }
 
 /* ====================== Trending ====================== */
-
-.trending {
-  border: 1px solid blue;
-}
 
 .section_header {
   display: block;
@@ -635,7 +625,6 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
 }
 
 .post {
@@ -998,6 +987,7 @@ body {
     padding-left: 15px; */
     /* резиновый контент */
     width: calc(100% - 30px);
+    max-width: 100%;
     justify-content: space-between;
     
     /* фиксированный контент */
@@ -1078,7 +1068,6 @@ body {
   padding-left: 23px;
   padding-right: 23px;
   margin-bottom: 23px;
-  border: 1px solid green;
 }
 
 .shop > .section_header {
@@ -1257,7 +1246,6 @@ body {
 .footer {
   padding-right: 15px;
   padding-left: 15px;
-  border: 1px solid yellow;
 }
 
 .footer-wrapper {
