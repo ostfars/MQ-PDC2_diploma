@@ -25,9 +25,9 @@ body {
 
 /* ====================== Pop-up ====================== */
 
-/* .hidden {
+.hidden {
   display: none;
-} */
+}
 
 .popup_container {
   width: 100vw;
@@ -554,7 +554,7 @@ body {
   }
 }
 
-@media (min-width: 641px) and (max-width: 1199px) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
   .trending > .section_header {
     font-size: 18px;
     margin-top: 42px;
@@ -589,18 +589,11 @@ body {
   }
 }
 
-  @media (max-width: 640px) {
+@media (max-width: 640px) {
   .section_header {
     font-size: 16px;
     margin-top: 40px;
     margin-bottom: 20px;
-  }
-
-  .trending_post {
-    width: 100%;
-    padding-top: 18px;
-    min-height: 64.17vw;
-    margin-bottom: 3px;
   }
 
   .post_info {
@@ -616,6 +609,52 @@ body {
 
   .trending .tags-list-item {
     /* font-size: 3.89vw; */
+    font-size: 16px;
+  }
+
+  .trending_post_title h3 {
+    font-size: 16px;
+    /* font-size: 4.44vw; */
+    line-height: 1.25;
+  }
+}
+
+@media (max-width: 640px) and (orientation: portrait) {
+  .trending_post {
+    width: 100%;
+    padding-top: 18px;
+    min-height: 64.17vw;
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-height: 640px) and (orientation: landscape) {
+  .trending_post {
+    height: auto;
+    min-height: 32.03vw;
+    width: 49.8%;
+    padding-top: 18px;
+  }
+
+  .section_header {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .trending_post:first-child, .trending_post:nth-child(2) {
+    margin-bottom: 4px;
+  }
+
+  .post_info {
+    margin-bottom: 18px;
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 30px 20px 27px;
+  }
+
+  .trending .tags-list-item {
     font-size: 16px;
   }
 
@@ -642,15 +681,14 @@ body {
   background-image: url("../img/trend4.jpg");
 }
 
-@media (max-width: 640px) and (orientation: landscape) {
+/* @media (max-width: 640px) and (orientation: landscape) {
   .trending_post {  
     width: 49.8%;
     min-height: auto;
-    /* max-height: 32.03vw; */
   }
-}
+} */
 
-@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+/* @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
   .trending_post {
     width: 24.8%;
     min-height: auto;
@@ -663,7 +701,7 @@ body {
   .post_info {
     padding: 15px;
   }
-}
+} */
 /* ====================== Content ====================== */
 
 .content {
