@@ -1061,7 +1061,7 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) or (max-height: 640px) {
   .content {
     justify-content: center;
     flex-wrap: wrap;
@@ -1075,7 +1075,9 @@ body {
     /* фиксированный контент */
     /* max-width: 330px; */
   }
-
+  .posts {
+    width: 100%
+  }
   .post {
     flex-wrap: wrap;
     flex-direction: column;
