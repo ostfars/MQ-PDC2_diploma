@@ -187,7 +187,7 @@ body {
   }
 }
 
-@media (min-width: 360px) and (max-width: 640px) {
+@media (min-width: 360px) and (max-width: 1199px) {
   
   .popup {
     left: calc(50vw - 180px);
@@ -201,24 +201,27 @@ body {
   }
 }
 
-@media (min-width: 641px) {
-  .popup {
-    top: calc(50vh - 305px);
-    left: calc(50vw - 195px);
-  }
+@media (min-width: 641px) and (orientation: portrait) {
   .form_container {
     padding: 50px 30px;
   }
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
-  
+  .popup {
+    top: calc(50vh - 305px);
+    left: calc(50vw - 195px);
+  }
   .feedback > .section_header {
     font-size: 18px;
   }
 }
 
 @media (min-width: 1200px) {
+  .popup {
+    top: calc(50vh - 305px);
+    left: calc(50vw - 195px);
+  }
   .close {
     height: 18px;
     background-size: 18px;
