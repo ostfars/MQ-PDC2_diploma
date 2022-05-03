@@ -570,7 +570,7 @@ body {
   }
 }
 
-@media (min-width: 641px), (max-width: 1199px) and (orientation: portrait) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
   .trending > .section_header {
     font-size: 18px;
     margin-top: 42px;
